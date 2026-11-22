@@ -14,7 +14,7 @@ Kanban-Board für 3D-Druck-Wünsche der Familie, mit den Spalten **Zurückgestel
 In der **Shell des PVE-Hosts**:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/bastian1607/bastian1607/main/ct/druckwunsch.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/bastian1607/druckwunsch/main/ct/druckwunsch.sh)"
 ```
 
 Das Skript legt einen unprivilegierten Debian-LXC an (1 Kern, 512 MiB RAM, 4 GB Disk, DHCP) und installiert Node.js sowie die App als systemd-Dienst auf Port 80. Über „Erweitert“ lassen sich ID, Ressourcen, statische IP und Port anpassen.

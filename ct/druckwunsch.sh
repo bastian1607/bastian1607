@@ -3,14 +3,14 @@
 # Installation im Stil der Proxmox-VE-Helper-Scripts.
 #
 #   Auf dem PVE-Host (Shell der Node) ausführen:
-#     bash -c "$(curl -fsSL https://raw.githubusercontent.com/bastian1607/bastian1607/main/ct/druckwunsch.sh)"
+#     bash -c "$(curl -fsSL https://raw.githubusercontent.com/bastian1607/druckwunsch/main/ct/druckwunsch.sh)"
 #
 #   Im Container ausführen (oder einfach: update) → aktualisiert die App.
 #
 # Überschreibbar per Umgebungsvariable: REPO, BRANCH
 set -Eeuo pipefail
 
-REPO="${REPO:-bastian1607/bastian1607}"
+REPO="${REPO:-bastian1607/druckwunsch}"
 BRANCH="${BRANCH:-main}"
 APP="Druckwunsch"
 NSAPP="druckwunsch"

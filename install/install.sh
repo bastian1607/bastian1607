@@ -3,7 +3,7 @@
 # kann aber auch manuell auf einem frischen Debian 12/13 ausgeführt werden.
 set -Eeuo pipefail
 
-REPO="${REPO:-bastian1607/bastian1607}"
+REPO="${REPO:-bastian1607/druckwunsch}"
 BRANCH="${BRANCH:-main}"
 PORT="${PORT:-80}"
 NODE_MAJOR="${NODE_MAJOR:-24}"
